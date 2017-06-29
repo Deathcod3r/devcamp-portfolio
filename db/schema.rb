@@ -47,6 +47,7 @@ ActiveRecord::Schema.define(version: 20170628164044) do
     t.text     "thumb_image"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.integer  "position"
   end
 
   create_table "skills", force: :cascade do |t|
