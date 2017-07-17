@@ -56,3 +56,5 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.3'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
+
+gem 'Dankest_View_Tool', git: 'https://github.com/Deathcod3r/Dankest_View_Tool'

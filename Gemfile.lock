@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Deathcod3r/Dankest_View_Tool
+  revision: 4598f360024c2efaee577d3eecd8f671f0ac0c17
+  specs:
+    Dankest_View_Tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -183,6 +189,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  Dankest_View_Tool!
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
