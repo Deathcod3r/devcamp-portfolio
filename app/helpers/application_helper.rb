@@ -17,6 +17,6 @@ module ApplicationHelper
   end
   
   def copyright_generator
-     DankestViewTool::Renderer.copyright 'Jeremy Cunningham', 'All rights reserved'
+    DankestViewTool::Renderer.copyright 'Jeremy Cunningham', 'All rights reserved'
   end
 end
