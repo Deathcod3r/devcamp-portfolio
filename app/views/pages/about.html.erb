@@ -1,2 +1,29 @@
-<h1>Pages#about</h1>
-<p>Find me in app/views/pages/about.html.erb</p>
+<body>
+    <h1 class= "about-header">In this page you will find a plethora of information on me.</h1>
+    <p class= "about-body">My name is Jeremy, and I sure you know that already so here is a little about me:</p>
+    <p>I have a few skills, here are some of them</p>
+      <hr>
+      <dl>
+        <dt>HTML</dt>
+        <dd>- Still learning</dd>
+        <dt>CSS</dt>
+        <dd>- Still learning</dd>
+        <dt>Ruby</dt>
+        <dd>- Still learning</dd>
+      </dl>
+      <p>I am very open and willing to learn what I need to learn in order to be apart of your company, I will do what it takes to become a professional developer in the world.</p>
+      <br>
+      <p>However, here are some things I am <i>going</i> to learn along with HTML, CSS, and Ruby</p>
+      <hr>
+      <ul>
+        <li>C#</li>
+        <li>Javascript</li>
+        <li>Java</li>
+      </ul>
+      <p>I am willing to learn any coding language I can, and I am also willing to expand my knowledge in any specific area, if it is needed or not.</p>
+      <p><b>Contact me below</b></p>
+      <hr>
+    <%= link_to "Contact", contact_path, class: "btn btn-lg btn-secondary" %>
+    <p class= "about-end">This whole website has been written using html, css, and ruby.</p>
+</body>
+
