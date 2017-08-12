@@ -1,7 +1,6 @@
 @import "bootstrap";
 @import "gritter";
 
-
 /*
  * Globals
  */
@@ -160,20 +159,21 @@ body {
   .cover-container {
     width: 55rem;
   }
-  
+}
+
 /*
- * Custom styles
+ * Custom Styles
  */
- 
+
 .card-block {
-   color: black;
-   text-align: left;
- }
- 
- .auth-links a {
-   color: black;
- }
- 
+  color: black;
+  text-align: left;
+}
+
+.auth-links a {
+  color: black;
+}
+
 .register-text {
   text-align: right;
 }
@@ -182,65 +182,6 @@ body {
   width: 22rem;
   margin: 0 auto;
   float: none;
-}
-  
-.cover-heading {
-  font-style: italic;
-  color: teal;
-}
-  
-.about-header {
-  position: fixed;
-  top: 6rem;
-  left: 27rem;
-}
-
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-}
-
-ul {
-    list-style-position: inside;
-}
-
-.about-end {
-  position: absolute;
-  bottom: 60px;
-  right: 750px;
-}
-
-.contact_header {
-  position: fixed;
-  top: 6rem;
-  left: 54rem;
-}
-
-.contact-style {
-  font-family: ariel;
-
-}
-
-.p-contact {
-  font-size: 20px;
-  position: relative;
-}
-
-.phone {
-  position: relative;
-    left: 80px;
-    width: 200px;
-    height: 10px;
-    border: 3px solid #8AC007;
-}
-
-.verticalLine {
-  border-left: thick solid #666666;
 }
 
 .app-nav span {
@@ -259,7 +200,7 @@ ul {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('gears.gif') no-repeat;
+  background: image-url('home_bg.png') no-repeat;
   background-size: cover;
 }
 
@@ -267,4 +208,6 @@ ul {
   color: white;
 }
 
+ul {
+    list-style-position: inside;
 }
